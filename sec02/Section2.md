@@ -5,6 +5,6 @@ The python script connects to the serial console and takes an input from the use
 
 I am still working on the register read/write functionality.
 
-My plan for that is to input the register address/value from the user in the python script.
+My plan for that is to input the register address/value from the user in the python script. https://github.com/navgill4/ESE5190_Lab2B/blob/main/sec02/flashlight.py
 
 On the c side I plan to get one character at a time and cast to an unsigned int 32 bit and then the C code will read/write to the registers
